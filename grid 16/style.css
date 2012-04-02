@@ -1,0 +1,101 @@
+/*@group your normalize css/reset css*/
+html, body{
+	margin:0;
+	padding:0;	
+}
+/*@end normalize css*/
+/*@section Grid 16*/
+.row {
+  margin-left: -20px;
+  *zoom: 1;
+}
+.row:before, .row:after {
+  display: table;
+  content: "";
+}
+.row:after {
+  clear: both;
+}
+[class*="grid"] {
+  float: left;
+  margin-left: 20px;
+}
+.grid1 {
+  width: 40px;
+}
+.grid2 {
+  width: 100px;
+}
+.grid3 {
+  width: 160px;
+}
+.grid4 {
+  width: 220px;
+}
+.grid5 {
+  width: 280px;
+}
+.grid6 {
+  width: 340px;
+}
+.grid7 {
+  width: 400px;
+}
+.grid8 {
+  width: 460px;
+}
+.grid9 {
+  width: 520px;
+}
+.grid10 {
+  width: 580px;
+}
+.grid11 {
+  width: 640px;
+}
+.grid12 {
+  width: 700px;
+}
+.grid13 {
+  width: 760px;
+}
+.grid14 {
+  width: 820px;
+}
+.grid15 {
+  width: 880px;
+}
+.grid16, .container16{
+  width: 940px;
+}
+
+.container16 .grid16{
+  margin-left:0;	
+}
+.container16 {
+  margin-left: auto;
+  margin-right: auto;
+  *zoom: 1;
+}
+.container16:before, .container16:after {
+  display: table;
+  content: "";
+}
+.container16:after {
+  clear: both;
+}
+/*@end Grid 16*/
+/*@group theme - user styles*/
+[class*="grid"] {
+	 background:#f1f1f1;
+	 text-align: center;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	min-height: 30px;
+	line-height: 30px;
+}
+[class*="row"] {
+	 margin-bottom:10px;
+}
+/*@end theme*/

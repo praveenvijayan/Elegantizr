@@ -1,0 +1,125 @@
+/*@group your normalize css/reset css*/
+html, body{
+	margin:0;
+	padding:0;	
+}
+/*@end normalize css*/
+/*@section Grid 24*/
+.row {
+  margin-left: -10px;
+  *zoom: 1;
+}
+.row:before, .row:after {
+  display: table;
+  content: "";
+}
+.row:after {
+  clear: both;
+}
+[class*="grid"] {
+  float: left;
+  margin-left: 10px;
+}
+.grid1 {
+  width: 30px;
+}
+.grid2 {
+  width: 70px;
+}
+.grid3 {
+  width: 110px;
+}
+.grid4 {
+  width: 150px;
+}
+.grid5 {
+  width: 190px;
+}
+.grid6 {
+  width: 230px;
+}
+.grid7 {
+  width: 270px;
+}
+.grid8 {
+  width: 310px;
+}
+.grid9 {
+  width: 350px;
+}
+.grid10 {
+  width: 390px;
+}
+.grid11 {
+  width: 430px;
+}
+.grid12 {
+  width: 470px;
+}
+.grid13 {
+  width: 510px;
+}
+.grid14 {
+  width: 550px;
+}
+.grid15 {
+  width: 590px;
+}
+.grid16{
+  width: 630px;
+}
+.grid17 {
+  width: 670px;
+}
+.grid18 {
+  width: 710px;
+}
+.grid19 {
+  width: 750px;
+}
+.grid20{
+  width: 790px;
+}
+.grid21{
+  width: 830px;
+}
+.grid22 {
+  width: 870px;
+}
+.grid23 {
+  width: 910px;
+}
+.grid24{
+  width: 950px;
+}
+.container24 .grid24{
+  margin-left:0;	
+}
+.container24{
+  width: 950px;
+  margin-left: auto;
+  margin-right: auto;
+  *zoom: 1;
+}
+.container24:before, .container24:after {
+  display: table;
+  content: "";
+}
+.container24:after {
+  clear: both;
+}
+/*@end Grid 24*/
+/*@group theme - user styles*/
+[class*="grid"] {
+	 background:#f1f1f1;
+	 text-align: center;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	min-height: 30px;
+	line-height: 30px;
+}
+[class*="row"] {
+	 margin-bottom:10px;
+}
+/*@end theme*/
