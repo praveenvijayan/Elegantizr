@@ -15,7 +15,8 @@ How to use
 download and include in your html file
 ```<link rel="stylesheet" href="style.css">```
 
-```<div class="container12">
+```
+<div class="container12">
 	
 	<div class="row">
 	
@@ -25,7 +26,8 @@ download and include in your html file
 		
 	</div>
 	
-</div>```
+</div>
+```
 
 Browser support
 -----------------
