@@ -15,12 +15,17 @@ How to use
 download and include in your html file
 ```<link rel="stylesheet" href="style.css">```
 
-<pre><div class="container12">
+```<div class="container12">
+	
 	<div class="row">
+	
 		<div class="grid6">6</div>
+		
 		<div class="grid6">6</div>
+		
 	</div>
-</div></pre>
+	
+</div>```
 
 Browser support
 -----------------
